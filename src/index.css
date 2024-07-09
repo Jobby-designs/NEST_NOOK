@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.heroPic {
+  background-image: url("hero-picture.png");
+
+  background-size: cover;
+  height: 100vh;
+  /* background-image: url("hero-pic.png"); */
+  /* background-position: center; */
+  /* object-fit: contain; */
+  /* margin-left: 70px;
+    margin-right: 70px;
+    width: 100%;
+    height: 500px; */
+  /* object-fit: cover; 
+    background-size: 100% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+    background-position: center; */
+}
+
+@media screen and (max-width: 767px) {
+  .heroPic {
+    height: 50vh;
+  }
+}
