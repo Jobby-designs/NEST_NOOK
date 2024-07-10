@@ -33,9 +33,19 @@ function Footer() {
 
         <div>
           <p className="mb-[22px]">Subscribe to our Newsletter</p>
-          <div className="flex items-center mb-[20px]">
-            <input type="text" placeholder="Enter email to get started" className="p-4 rounded-l-lg" />
-            <div className="p-4 rounded-r-lg bg-pink-200"><FaArrowRight size={25} className="text-black" /></div>
+          <div className="flex items-center mb-[20px] md:mx-[10px] mr-5 ">
+            <input
+              type="text"
+              placeholder="Enter email to get started"
+              className="md:p-4 rounded-l-lg p-[3px]"
+            />
+            <div className=" md:p-4 p-2 rounded-r-lg bg-pink-200 mr-11">
+              <FaArrowRight
+                size={15}
+                md:size={25}
+                className="text-black "
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -47,7 +57,7 @@ function Footer() {
           <FaXTwitter className="w-[27.2px] h-[27.2]" />
           <LuFacebook className="w-[27.2px] h-[27.2]" />
         </div>
-          <p className="my-[21px]">Back to top</p>
+        <p className="my-[21px]">Back to top</p>
       </div>
       <div className="flex items-center justify-between px-10">
         <p>©2022 Nest & Nook Company S.L. ALL RIGHTS RESERVED.</p>
