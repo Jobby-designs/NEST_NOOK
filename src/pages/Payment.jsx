@@ -19,17 +19,17 @@ function Payment() {
             <img src="paypal.png" alt="" className=""/>
           </div>
 
-          <input type="text" name="" id="" placeholder="Card Number" className="border-2 border-black p-0  py-[15px]  md:pl-[31px]  md:pr-[386px] md:py-[21px] rounded-lg"/>
+          <input type="text" name="" id="" placeholder="Card Number" className="border-2 border-black p-0  py-[9px]  md:pl-[31px]  md:pr-[386px] md:py-[21px] rounded-lg"/>
           <p className="pt-[27.73px]text-[10px] font-medium ">Exp. date</p>
           <div className="flex gap-x-[10px]">
-            <input  type="text" className="border-black border-2  w-[55px]  md:w-[90.96px] md:h-[72.1px] rounded-lg "/>
-            <input  type="text" className="border-black border-2 w-[55px]  md:w-[90.96px] md:h-[72.1px] rounded-lg "/>
+            <input  type="text" className="border-black border-2  w-[55px] h-[55px] md:w-[90.96px] md:h-[72.1px] rounded-lg "/>
+            <input  type="text" className="border-black border-2 w-[55px] h-[55px] md:w-[90.96px] md:h-[72.1px] rounded-lg "/>
             <p className="font-light text-[44.37px]">/</p>
-            <input  type="text" className="border-black border-2 w-[55px]  md:w-[90.96px] md:h-[72.1px] rounded-lg "/>
-            <input  type="text" className="border-black border-2 w-[55px]  md:w-[90.96px] md:h-[72.1px] rounded-lg "/>
+            <input  type="text" className="border-black border-2 w-[55px] h-[55px] md:w-[90.96px] md:h-[72.1px] rounded-lg "/>
+            <input  type="text" className="border-black border-2 w-[55px] h-[55px] md:w-[90.96px] md:h-[72.1px] rounded-lg "/>
           </div>
 
-          <input type="text" placeholder="CCV" className="border-2 border-black p-0 py-[15px]  md:pl-[31px]  md:pr-[390px] md:py-[21px] mt-[27.73px] rounded-lg"/>
+          <input type="text" placeholder="CCV" className="border-2 border-black p-0 py-[9px]  md:pl-[31px]  md:pr-[390px] md:py-[21px] mt-[27.73px] rounded-lg"/>
           <div>
           <button className=" md:mt-[27.73px] items-center rounded-lg bg-[#402D1F] p-4 text-white font-medium text-2xl  w-[237.09px]  h-[50px] mt-[70px]  mb-[15px] md:h-[72.1px]">Confirm</button>
           </div>

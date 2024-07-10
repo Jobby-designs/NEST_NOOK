@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <div className="flex md:justify-between gap-4 md:px-16 pb-2 pt-[8px] h-[100px]  items-center ">
+    <div className="flex md:justify-between gap-4 md:px-16 pb-2 pt-[8px] h-[100px]  items-center sticky top-0 bg-white z-50">
       <div className="">
         <img src="/card (1).png" alt="logo" className="w-[5rem] md:w-[123px] md:h-[57.25px] flex items-center justify-center" />
       </div>
