@@ -12,7 +12,7 @@ function NavBar() {
           HOME
         </Link></p>
         <p><Link to="/" className="font-normal text-[16px] text-[#000000]">
-          CONTACT US
+          CONTACT
         </Link></p>
         <p><Link to="/cart" className="font-normal text-[16px] text-[#000000]">
           CART
