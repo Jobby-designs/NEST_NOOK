@@ -8,11 +8,10 @@ body {
   font-style: normal;
 }
 .heroPic {
-  background-image: url("hero-picture.png");
+  /* background-image: url("hero-picture.png"); */
 
   background-size: cover;
   height: 100vh;
-
 }
 
 @media screen and (max-width: 767px) {

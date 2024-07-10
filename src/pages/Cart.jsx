@@ -78,7 +78,7 @@ function Cart() {
             </div>
             <div className="flex  justify-between mt-8   font-semibold">
               <div className="flex bg-[#402D1F] w-[194px] h-[60.97px] justify-between rounded-lg text-center items-center ">
-                <p className="bg-[#725E45] rounded-lg w-[25%]  text-center content-center ">
+                <p className="bg-[#725E45] rounded-lg w-[25%] h-[100%] text-center content-center ">
                   -
                 </p>
                 1
@@ -97,11 +97,11 @@ function Cart() {
               </p>
               <p className="text-[12px]   font-light leading-[25px]  ">
                 Indulge in ultimate relaxation with our Plush Comfort
-                Chair, featuring ultra- <br />soft high- 
+                Chair, featuring ultra-soft high- 
                 density foam cushions, a modern yet timeless
-                design, premium <br/> stain-resistant fabric in 
+                design, premium stain-resistant fabric in 
                 sophisticated colors, a sturdy hardwood 
-                frame for <br /> lasting durability, and versatile use perfect
+                frame for lasting durability, and versatile use perfect
                 for any living space.
               </p>
               <p className="font-medium text-[18px] mt-[20px] mb-2">
