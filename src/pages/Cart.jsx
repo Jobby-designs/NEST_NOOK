@@ -53,11 +53,11 @@ function Cart() {
             </div>
             <div className="flex  justify-between mt-10   font-semibold">
               <div className="flex bg-[#402D1F] md:w-[194px] md:h-[60.97px] justify-between rounded-lg text-center items-center ">
-                <p className="bg-[#725E45] rounded-lg  w-[25%]  text-center content-center ">
+                <p className="bg-[#725E45] rounded-lg  w-[25%] h-full  text-center content-center ">
                   -
                 </p>
                 1
-                <p className="bg-[#725E45] rounded-lg  w-[25%] text-center content-center">
+                <p className="bg-[#725E45] rounded-lg  w-[25%] h-full text-center content-center">
                   +
                 </p>
               </div>
@@ -136,7 +136,7 @@ function Cart() {
         <p className="text-black md:mt-[100.41px] mt-10 mb-8 font-medium  text-[12px] md:text-[32px]  ml-3">
           You might also like
         </p>
-        <div className="grid md:grid-cols-4 gap-4 mx-[16px] justify-center mb-[90px] gap-x-12 ">
+        <div className="grid md:grid-cols-4  gap-4 mx-[16px] justify-center mb-[90px] gap-x-12 ">
           <div className="">
             <div>
               <img

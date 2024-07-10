@@ -9,7 +9,7 @@ function Payment() {
     <div>
       <NavBar />
 
-      <div className="md:flex-row flex-col-reverse flex mt-16 mx-16 mb-28">
+      <div className="md:flex-row flex-col-reverse flex mt-28 mx-16 mb-28">
         <div className="basis-3/4" >
           <p className="md:font-semibold  font-medium text-[16px] md:text-[36.63px] mt-4">PAYMENT METHOD</p>
           <div className="flex mt-[19.41px] mb-[41.6px] md:gap-x-[29.82px]  gap-x-[10px] h-[33.11px]  items-center ">
@@ -19,11 +19,11 @@ function Payment() {
             <img src="paypal.png" alt="" className=""/>
           </div>
 
-          <input type="text" name="" id="" placeholder="Card Number" className="border-2 border-black p-0  py-[9px]  md:pl-[31px]  md:pr-[386px] md:py-[21px] rounded-lg"/>
+          <input type="text" name="" id="" placeholder="Card Number" className="border-2 border-black p-0 pr-[5px] py-[9px]  md:pl-[31px]  md:pr-[386px] md:py-[21px] rounded-lg"/>
           <p className="pt-[27.73px]text-[10px] font-medium ">Exp. date</p>
           <div className="flex gap-x-[10px]">
-            <input  type="text" className="border-black border-2  w-[55px] h-[55px] md:w-[90.96px] md:h-[72.1px] rounded-lg "/>
-            <input  type="text" className="border-black border-2 w-[55px] h-[55px] md:w-[90.96px] md:h-[72.1px] rounded-lg "/>
+            <input  type="text" className="border-black border-2  w-[55px] h-[55px] md:w-[90.96px] md:h-[72.1px] md:rounded-lg "/>
+            <input  type="text" className="border-black border-2 w-[55px] h-[55px] md:w-[90.96px] md:h-[72.1px] md:rounded-lg "/>
             <p className="font-light text-[44.37px]">/</p>
             <input  type="text" className="border-black border-2 w-[55px] h-[55px] md:w-[90.96px] md:h-[72.1px] rounded-lg "/>
             <input  type="text" className="border-black border-2 w-[55px] h-[55px] md:w-[90.96px] md:h-[72.1px] rounded-lg "/>

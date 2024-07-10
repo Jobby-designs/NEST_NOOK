@@ -9,7 +9,7 @@ function Products() {
       </p>
       <div className="flex w-full mx-auto justify-center">
         <div className=" grid md:grid-cols-3  gap-y-10 gap-x-8  justify-center w-[100%] px-[65.17px] ">
-          <div className="">
+          <div className="drop-shadow-md hover:drop-shadow-2xl">
             <div>
               <img
                 className="rounded-t-[23px] w-full"
@@ -27,7 +27,7 @@ function Products() {
               </div>
             </div>
           </div>
-          <div className="">
+          <div className="drop-shadow-md hover:drop-shadow-2xl">
             <div>
               <img
                 className="rounded-t-[20px] w-full"
@@ -45,7 +45,7 @@ function Products() {
               </div>
             </div>
           </div>
-          <div className="">
+          <div className="drop-shadow-md hover:drop-shadow-2xl">
             <div>
               <img
                 className="rounded-t-[20px] w-full"
@@ -99,7 +99,7 @@ function Products() {
               </div>
             </div>
           </div>
-          <div className="">
+          <div className="drop-shadow-md hover:drop-shadow-2xl">
             <div>
               <img
                 className="rounded-t-[20px] w-full"
@@ -126,7 +126,7 @@ function Products() {
               />
             </div>
             <div className="bg-[#402D1F] w-full h-[96px] rounded-b-[20px]  flex justify-between text-white items-center px-[20px] py-[25px]">
-              <div className="">
+              <div className="drop-shadow-md hover:drop-shadow-2xl">
                 <p className="font-medium text-[18px]">Metro Chic Chair</p>
                 <p className="font-medium text-[15.32]">N200, 000</p>
               </div>
@@ -153,7 +153,7 @@ function Products() {
               </div>
             </div>
           </div>
-          <div className="">
+          <div className="drop-shadow-md hover:drop-shadow-2xl">
             <div>
               <img
                 className="rounded-t-[20px] w-full"
@@ -171,7 +171,7 @@ function Products() {
               </div>
             </div>
           </div>
-          <div className="">
+          <div className="drop-shadow-md hover:drop-shadow-2xl">
             <div>
               <img
                 className="rounded-t-[20px] w-full"
@@ -189,7 +189,7 @@ function Products() {
               </div>
             </div>
           </div>
-          <div className="">
+          <div className="drop-shadow-md hover:drop-shadow-2xl">
             <div>
               <img
                 className="rounded-t-[20px] w-full"
@@ -207,7 +207,7 @@ function Products() {
               </div>
             </div>
           </div>
-          <div className="">
+          <div className="drop-shadow-md hover:drop-shadow-2xl">
             <div>
               <img
                 className="rounded-t-[20px] w-full"
@@ -228,7 +228,9 @@ function Products() {
         </div>
       </div>
       <div className="flex justify-center my-[50px] text-center gap-x-4 font-medium leading-7">
-        <p className=" rounded-md w-[40px] h-[40px] bg-[#725E45] text-white">1</p>
+        <p className=" rounded-md w-[40px] h-[40px] bg-[#725E45] text-white">
+          1
+        </p>
         <p className="w-[40px] h-[40px] text-[#725E45]">2</p>
         <p className="w-[40px] h-[40px] text-[#725E45]">3</p>
         <p className="text-[#725E45] w-[40px] h-[10px]">Next</p>
