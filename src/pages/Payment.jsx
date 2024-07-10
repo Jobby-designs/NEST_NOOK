@@ -11,12 +11,12 @@ function Payment() {
 
       <div className="md:flex-row flex-col-reverse flex mt-16 mx-16 mb-28">
         <div className="basis-3/4" >
-          <p className="md:font-semibold  font-medium text-[16px] mb:text-[36.63px] mt-4">PAYMENT METHOD</p>
-          <div className="flex mt-[19.41px] mb-[41.6px] md:gap-x-[29.82px]  gap-x-[19px] h-[33.11px] ">
-            <img src="/logos_visa.png" alt="" className="w-6 h-6" />
-            <img src="/apple-pay.png" alt="" className="w-6 h-6"/>
-            <img src="mastercard.png" alt=""className="w-6 h-6" />
-            <img src="paypal.png" alt="" className="w-6 h-6"/>
+          <p className="md:font-semibold  font-medium text-[16px] md:text-[36.63px] mt-4">PAYMENT METHOD</p>
+          <div className="flex mt-[19.41px] mb-[41.6px] md:gap-x-[29.82px]  gap-x-[10px] h-[33.11px]  items-center ">
+            <img src="/logos_visa.png" alt="" className="" />
+            <img src="/apple-pay.png" alt="" className=""/>
+            <img src="mastercard.png" alt=""className="" />
+            <img src="paypal.png" alt="" className=""/>
           </div>
 
           <input type="text" name="" id="" placeholder="Card Number" className="border-2 border-black p-0  py-[15px]  md:pl-[31px]  md:pr-[386px] md:py-[21px] rounded-lg"/>

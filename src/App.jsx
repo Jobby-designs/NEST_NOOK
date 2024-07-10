@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import Home from "./pages/Home"
 import Cart from "./pages/Cart";
 import Payment from "./pages/Payment";
+import './index.css';
 
 
 
